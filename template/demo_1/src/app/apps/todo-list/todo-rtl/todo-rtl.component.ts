@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
+import { UntypedFormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-todo-rtl',
@@ -18,7 +18,7 @@ export class TodoRtlComponent implements OnInit {
     { task : 'المستوى الأعلى لأنتوني' , completed : false }
   ];
 
-  constructor(fb: FormBuilder) {
+  constructor(fb: UntypedFormBuilder) {
 
     this.form = fb.group({
       todoitem : ['', Validators.required]

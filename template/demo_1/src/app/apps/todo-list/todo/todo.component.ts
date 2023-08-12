@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, Validators } from '@angular/forms';
+import { UntypedFormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-todo',
@@ -17,7 +17,7 @@ export class TodoComponent implements OnInit {
     { task : 'Level up for Antony' , completed : false }
   ];
 
-  constructor(fb: FormBuilder) {
+  constructor(fb: UntypedFormBuilder) {
 
     this.form = fb.group({
       todoitem : ['', Validators.required]
