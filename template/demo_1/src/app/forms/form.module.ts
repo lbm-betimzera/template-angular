@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { BasicElementsComponent } from './basic-elements/basic-elements.component';
 import { RouterModule, Routes } from '@angular/router';
 import { NgSelectModule } from '@ng-select/ng-select';
-import { CustomFormsModule } from 'ng2-validation';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
@@ -17,7 +16,6 @@ const routes: Routes = [
     RouterModule.forChild(routes),
     NgSelectModule,
     NgbModule,
-    CustomFormsModule,
   ],
   providers: []
 })
