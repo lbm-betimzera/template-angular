@@ -63,7 +63,7 @@
     "ngx-chips": "^2.2.2",
     "ngx-clipboard": "^14.0.1",
     "ngx-color-picker": "^11.0.0",
-    "ngx-contextmenu": "^5.4.0",
+    "ngx-contextmenu": "^6.0.0",
     "ngx-dropzone-wrapper": "^10.0.1",
     "ngx-mapbox-gl": "^10.0.0",
     "ngx-owl-carousel-o": "^4.0.0",
